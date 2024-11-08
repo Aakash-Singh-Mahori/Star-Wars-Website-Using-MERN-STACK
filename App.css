@@ -1,0 +1,28 @@
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+.art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.art-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.art-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+form {
+    margin-bottom: 20px;
+}
